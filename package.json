@@ -1,0 +1,27 @@
+{
+  "name": "heroku-loco-plugin",
+  "version": "1.0.0",
+  "description": "Plugin to run code locally with an apps environment",
+  "main": "index.js",
+  "author": "Marc Sibson @sibson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sibson/heroku-loco-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/sibson/heroku-loco-plugin/issues"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "test": "jshint ."
+  },
+  "dependencies": {
+    "heroku-client": "^1.9.1"
+  },
+  "devDependencies": {
+    "jshint": "*"
+  }
+}
