@@ -19,6 +19,8 @@
     "test": "jshint ."
   },
   "dependencies": {
+    "co": "4.6.0",
+    "heroku-cli-util": "^5.4.6",
     "heroku-client": "^1.9.1"
   },
   "devDependencies": {
